@@ -1,26 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+# Title:jkvdnvl
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-//function generateMarkdown(data) {
-//  return `# ${data.title}
-
-//`;
-//}
-
-const generateREADME = (data) =>
-`# Title:${data.Title}
-
-## Description: ${data.Description}
+## Description: vdnfjbdb
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
@@ -38,17 +18,17 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Credits](#credits)
 - [License](#license)
 
-## Installation ${data.Installation}
+## Installation vfdbd
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Usage ${data.Usage}
+## Usage dfbd
 
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an "assets/images" folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-## Credits ${data.Credits}
+## Credits dfbdb
 
 List your collaborators, if any, with links to their GitHub profiles.
 
@@ -56,7 +36,7 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-## License ${data.License}
+## License undefined
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -74,12 +54,10 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 If your project has a lot of features, list them here.
 
-## How to Contribute ${data.Questions}
+## How to Contribute dfbdfbdfb
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-## Tests ${data.Tests}
+## Tests bdbdfb 
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.`
-
-module.exports = generateREADME;
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.

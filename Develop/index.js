@@ -2,6 +2,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateREADME = require('./utils/generateMarkdown')
 
 const questions = [
     inquirer
@@ -30,7 +31,7 @@ const questions = [
         type: 'input',
         name: 'Credits',
         message: 'List your collaborators, if any, with links to their GitHub profiles. ',
-      }
+      },
       {
         type: 'input',
         name: 'LicenseBadge',
@@ -47,27 +48,28 @@ const questions = [
         message: 'Provide your Github contact profile here so ppl can reach you with any questions',
       },
     ])
-
-];
-    .then((answers) => {
-        const generateREADME = {(Title, Description, Installation, Usage, LicenseBadge, Credits, Tests, Questions,)}
     
-        fs.writeFile('README-Gen', htmlPageContent, (err) =>
-          err ? console.log(err) : console.log('Successfully created README.md!')
-        );
-      });
-
+    .then((answers) => {
+    
+        fs.writeFile('README.md', generateREADME({...answers}), function(err){
+          if (err) {
+              console.log(err);
+          }
+          else{
+              console.log('addedData');
+          }
+      })
+  })]
+      
 // TODO: Create a function to write README file
-function writeToFile(`README-Gen.md`, data) {}
+//function writeToFile(`README.md`, data) {}
+
+//const generateREADME = {(Title, Description, Installation, Usage, LicenseBadge, Credits, Tests, Questions,)}
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
 
 // Function call to initialize app. put inquirere prompt into. look into proper syntax in inquiere documentation. 
 //pass thru what your prompting. run the inquirere promts and pass the questions into the promt function into the write to file 
 //function(the ReadMe)
-init();
-
-
-
-
+//init()//
