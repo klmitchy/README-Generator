@@ -1,8 +1,6 @@
-# Title:
-vfd
+# Title:README Generator
 
-## Description: 
-vfdv
+## Description: Generates README
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
@@ -11,20 +9,17 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
-## Installation 
-dfvf
+## Installation Requires fs, inquirer, generate markdown
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Usage 
-fdfv
+## Usage When a user wants a quality README, THEN they may implement this generator
 
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an "assets/images" folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-## Credits 
-dfv
+## Credits klmitchy
 
 List your collaborators, if any, with links to their GitHub profiles.
 
@@ -32,8 +27,7 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-## License 
-undefined
+## License undefined
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -51,12 +45,10 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 If your project has a lot of features, list them here.
 
-## How to Contribute 
-d
+## How to Contribute klmitchy
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-## Tests 
-fv
+## Tests Copyright (c) 2022 klmitchy
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
