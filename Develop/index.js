@@ -1,8 +1,10 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require('inquirer');
+const path = require("path");
 const fs = require('fs');
-const generateREADME = require('./utils/generateMarkdown')
+const generateREADME = require('./utils/generateMarkdown');
+
 
 const questions = [
     inquirer
@@ -51,7 +53,7 @@ const questions = [
     
     .then((answers) => {
     
-        fs.writeFile('README.md', generateREADME({...answers}), function(err){
+        fs.writeFile(path.join(__dirname, 'dist/README.md'), generateREADME({...answers}), function(err){
           if (err) {
               console.log(err);
           }
